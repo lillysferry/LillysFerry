@@ -1,0 +1,233 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Victoria Freehouse's Food Menu</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a9f2e1d683.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header>
+        
+        <nav>
+            <div class="topnav">
+                <a class = "logo-link" href="index.html">
+                    <img class = "logo" height="90" src="images/logo.jpg" alt="Logo for Victoria Freehouse, silhouette of the queen">
+             </a> 
+                <div id="myLinks">
+                    <a class = "nav-links"href="index.html"> Home</a>
+                    <a class = "nav-links" href="foodmenu.html" id = "selected" >Menu</a>
+                    <a class = "nav-links"href="calendar.html"> Events & Calendar</a>
+                    <!-- <a href="menu.html" >Menu</a> -->
+                    <!-- <a href="special-events.html" >Specials & Events</a> -->
+                    <a class = "nav-links"href="catering-and-booking.html" >Catering & Bookings</a>
+                    <!-- <a href="contactus.html" >Contact Us</a> -->
+                    
+                </div>
+                <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars"></i>
+                </a>
+              </div>
+        </nav>
+    </header>
+
+    <div class = "menu">
+        <div class="submenu">
+            <a class = "subMenuItem"  href="index.html">Home</a>
+            <a class = "subMenuItem"  href="drinkmenu.html">Beverages</a>
+            <a class = "subMenuItem"  href="brunch.html"> Brunch</a>
+        </div>
+
+        <!-- <a href="#pubsnacks">Pub Snacks</a>
+        <a href="#largeplates">Large Plates</a> -->
+
+        
+        <div id = "pubsnacks" class ="pubSnacks">
+            <h2 class = "menuCategory">Pub Snacks </h2>
+            <p class ="mainItem">Buffalo Fries $8</p>
+                <p class ="description">hand cut fries, franks red hot spice, blue cheese dressing</p>
+            
+            <p class ="mainItem">Curried Cheese Fries $10</p>
+                <p class ="description">hand cut fries, cheddar, mild curry sauce</p>
+            
+            <p class ="mainItem">Deviled Eggs $6</p>
+                <p class ="description">Pickled beetroot deviled eggs</p>
+            
+            <p class ="mainItem">Welsh Rarebit $6</p>
+                <p class ="description">Toast baked with English cheddar and ale sauce V</p>
+            
+            <p class ="mainItem">Bacon Wrapped Dates $6</p>
+                <p class ="description">blue cheese stuffed dates wrapped in bacon</p>
+            
+            <p class ="mainItem">Scotch Egg $7.50</p>
+                <p class ="description">Hardboiled egg wrapped in sausage, served with chutney</p>
+            
+            <p class ="mainItem">Sausage Roll $7.50</p>
+                <p class ="description">Pork sausage in puff pastry with house mustard</p>
+             
+            <p class ="mainItem">Beer Bacon Cheddar Mac n' Cheese $13.50</p>
+                <p class ="description">English ale, bacon, cheddar, parmesan breadcrumbs</p>
+            
+            <p class ="mainItem">Garlic Marmite Wings $15</p>
+                <p class ="description">10 wings, carrots, house blue cheese dressing</p>
+
+        </div>
+        <div id = "largeplates" class ="largePlates">
+            <h2 class = "menuCategory"> Large Plates</h2>
+                <p class ="mainItem">Cheeseburger $14</p>
+                    <p class = "description"> sesame roll, cheddar, pickle, mayo, fries, LTO optional</p>
+                    <p class = "description"> add Bacon $1  add Egg $1  add Mushrooms $1 </p>
+
+                <p class ="mainItem">Vegan Cheeseburger $14</p> 
+                    <p class = "description">vegan bun, mayo, and cheddar, fries, LTO optional (Vegan)</p> 
+                    <p class = "description">add Mushrooms $1</p>
+
+                <p class ="mainItem">Steak, Bacon and Ale Pie $14</p> 
+                    <p class = "description">served with mash or chips</p>
+
+                <p class ="mainItem">Vegetarian Spinach and Feta Pie $14</p> 
+                    <p class = "description">served with mash or chips V</p>
+
+                <p class ="mainItem">Roast Beef Sandwich $14</p>
+                    <p class = "description">horseradish mayo, onion, cheddar, fries</p>
+
+                <p class ="mainItem">Fish Sandwich $15</p>
+                    <p class = "description">4oz battered cod, toasted brioche bun, tartar sauce</p> 
+
+                <p class ="mainItem">Caesar Salad $13</p> 
+                    <p class = "description">romaine, house caesar dressing, garlic croutons</p>
+                    <p class = "description">​add chicken $3</p>
+
+                <p class ="mainItem">Chicken Tikka Masala $19</p>
+                    <p class = "description">yogurt marinated chicken, mild tomato curry, flatbread chips (GF)</p>
+
+                <p class ="mainItem">Vegan Tikka Masala $20</p>
+                    <p class = "description">vegan chicken, mild tomato coconut curry, flatbread chips (Vegan)</p>
+
+                <p class ="mainItem">​Shepherds Pie $21</p>
+                    <p class = "description">lamb simmered with root vegetables, baked with cheddar mashed potatoes (GF)</p> 
+
+                <p class ="mainItem">Chicken Pot Pie $20</p>
+                    <p class = "description">chicken and root vegetables in a creamy sauce, baked with pastry (GF with mash)</p> 
+
+                <p class ="mainItem">Fish and Chips $15 Large $20</p>
+                    <p class = "description">battered cod served with fries and tartar sauce</p>
+
+                <p class ="mainItem">Chicken and Chips $13​</p>
+                    <p class = "description">Four battered chicken strips, Served with fries</p>
+
+        </div>
+        <div class = "sides">
+            <h2 class = "menuCategory">Sides</h2>
+                <p>heinz beans $3</p>
+                <p>chips $6</p>
+                <p>curry sauce $5</p>
+
+        </div>
+        <div class ="pudding">
+            <h2 class = "menuCategory">Pudding</h2>
+            <p class ="mainItem">Pumpkin Bread Pudding $8</p>
+                <p class ="decription">served warm with pastry cream and toffee sauce</p>
+           
+            <p class ="mainItem">​Sticky Toffee Pudding $8</p>
+                 <p class ="decription">Warm date cake served with toffee sauce and pastry cream</p>
+        </div>
+        <div class = "brunch">
+            <h2 class = "menuCategory brunchHeading">Brunch Sat & Sun 12-4</h2>
+                <p class ="currentPromotion">*brunch promotion: rose bottles $15*</p>
+
+                <p class ="mainItem">Full English Breakfast $13</p>
+                    <p class = "description">two eggs, fried tomato, mushrooms, Heinz beans, rashers, bangers, toast</p>
+
+                <p class ="mainItem">Vegetarian Full English $12 </p>
+                    <p class = "description">two eggs, mushrooms, tomato, Heinz beans, vegetarian sausage</p>
+                
+                <p class ="mainItem">Bubble and Squeak $12 </p>
+                    <p class = "description">vegetables and mashed potatoes smashed about on the griddle, two eggs,
+                    choice of rashers or bangers</p>
+
+                <p class ="mainItem">Pimped Out Rarebit $12</p>
+                    <p class = "description">welsh rarebit, two eggs, bacon, fried tomato</p>
+                    <p class = "description">add mushrooms $2</p>
+                
+                <p class ="mainItem">Bacon Pancakes $12</p>
+                    <p class = "description">served with butter and maple syrup</p>
+                    <p class = "description">add eggs $2</p>
+
+                <p class ="mainItem">Boston Creme Pie French Toast $13</p>
+                    <p class = "description">Brioche french toast served in a jacuzzi of nutella,</p>
+                    <p class = "description"> ​vanilla pastry cream, and whipped cream</p>
+        </div>     
+
+        </div>
+
+
+
+       
+        
+
+    </div>   <!--      end of menu -->
+
+
+
+		
+
+
+    <footer>
+
+        
+        <!-- <div class="col1">
+            <p>Your Neighborhood British Pub</p>
+            <p>Weekend Brunch 12-4pm</p>
+            <p>We are open Early for Premier League Matches</p>
+            
+        </div> -->
+        
+
+        <div class = "col2">
+            <div class="hours">
+                <p> Happy Hour: Tuesday - Friday 5-7</p>
+                <p>Hours</p>
+                <ul>
+                    <li>CLOSED MONDAY</li>
+                    <li>Tuesday-Thursday: 5-11</li>
+                    <li>Friday: 5-12</li>
+                    <li>Saturday: 12-12</li>
+                    <li>Sunday: 12-10</li>
+                    <li>Weekend Brunch, 12pm-4pm</li>
+                </ul>
+            </div>
+
+            <div class="contact">
+                <p>Contact: <br> <a href="tel:215-543-6089"> 215-543-6089</a> </p>
+                
+                <p>Location:</p> <a target = "_blank" href="https://www.google.com/maps/place/The+Victoria+Freehouse/@39.9492263,-75.1444797,17z/data=!3m1!5s0x89c6c88f7ef94f4d:0x9ff82f15a1e3e558!4m12!1m6!3m5!1s0x89c6c88f79874489:0x3573a3a03709f8b6!2sThe+Victoria+Freehouse!8m2!3d39.9492263!4d-75.142291!3m4!1s0x89c6c88f79874489:0x3573a3a03709f8b6!8m2!3d39.9492263!4d-75.142291">
+                    10 S Front St. 
+                </a>
+            </div>        
+
+        </div>
+        
+        
+        <div class = "col3">
+          
+            <a href="mailto: info@crowndining.com"><i class="far fa-envelope"></i></a> 
+            <a href="https://www.facebook.com/TheVictoriaFreehouse"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com/TVFHPhilly"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/TVFHPhilly/"><i class="fab fa-instagram"></i></a>
+           
+    
+        </div>
+
+       
+        
+    </footer>
+</body>
+<script src = "index.js"></script>
+</html>
