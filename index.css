@@ -1,0 +1,372 @@
+html{
+    font-size: 16px;
+    letter-spacing: .2em;
+    background-color: #fdfbf9;
+    height: 100%;
+
+}
+body{
+    background-color: #fdfbf9;
+    margin:0;
+    padding: 0;
+    /* font-family: 'IM Fell English SC', serif; */
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+}
+
+h3{
+   
+    font-size: 1.5em;
+}
+.logo-link{
+    text-decoration: none;
+    width: 50px;
+    
+}
+
+#selected{
+   text-decoration: underline;
+  
+}
+
+.imageGalleryImg{
+    max-width: 100%;
+    height: auto;
+       transition: 
+        transform 750ms cubic-bezier(.5, 0, .5, 1),
+        opacity 250ms linear;
+}
+.imageGalleryImg:hover{
+    transform: scale(1.1);
+ 
+}
+
+.logo{
+    height: 90px;
+}
+
+a{
+    
+    color: black;
+}
+
+
+/* Navigation */
+.topnav {
+    overflow: hidden;
+    background-color: white;
+    position: relative;
+  }
+  .topnav #myLinks {
+    display: none;
+  }
+
+.nav-links{
+    text-align: right;
+}
+.nav-links:hover,
+.nav-links:focus,s
+.crownDiningLinks:hover,
+.crownDiningLinks:focus,
+.far:hover,
+.far:focus,
+.fab:hover,
+.fab:focus{
+    font-size: larger;
+}
+
+
+  .topnav a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .topnav a.icon {
+    background: white;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+ 
+  .topnav a:hover {
+    background-color: white;
+    color: black;
+  } 
+
+  .active{
+      border: 1px solid red;
+  }
+
+/* End Nav */
+
+
+
+.imageGallery{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 5px;
+    row-gap: 5px;
+    margin: 0 auto;
+    max-width: fit-content;
+ 
+
+}
+.imageGalleryImg{
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    align-items: center;
+}
+/* Index.html CSS */
+
+.homeIntro{
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    margin-bottom: 1em;
+    max-width: 950px;
+    margin: 0 auto;
+
+
+}
+
+.mainImg{
+    max-width: 100%;
+    filter: brightness(50%);
+    margin: 0 auto;
+    display: block;
+    
+}
+
+.pageHeading{
+    position: absolute;
+    top: -5px;
+    left: 8px;
+    color: white;
+}
+
+.pageHeading h1{
+    margin-bottom: 0;
+    padding-left: .25rem;
+}
+
+.pageHeading p{
+    margin-top: 0;
+    padding-left: .25rem;
+    font-size: 1rem;
+}
+
+
+.mainPageMenu{
+    border: 1px solid black;
+    padding: .25em 1em;
+    font-size: 1.75rem;
+    letter-spacing: .1em;
+    margin-top: 1em;
+    text-decoration: none;
+    color: white;
+    border-radius: .25em;
+    background-color: #E2E6E6;
+    background-color: black;
+}
+
+.mainPageMenu:hover,
+.mainPageMenu:focus,
+.subMenuItem:hover,
+.subMenuItem:focus
+{
+    transform:scale(1.3,1.3);
+    -webkit-transform:scale(1.3,1.3);
+    -moz-transform:scale(1.3,1.3);
+}
+
+
+.menuContainer{
+    margin-bottom: 4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+       
+}
+
+@media (min-width: 768px) {
+    .menuContainer{
+        flex-direction: row;
+        justify-content: space-around;
+        max-width: 70%;
+        margin: 0 auto;
+       
+    }
+    .mainSection{
+       text-align: center;
+       margin: 0 auto;
+
+    }
+    .imageGallery{
+      
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+        column-gap: 10px;
+        row-gap: 10px; 
+     
+    }
+    .imageGalleryImg{
+        margin: 0;
+        object-fit: cover;
+        width: 250px;
+        height: 250px;
+        margin: 0;
+    }
+     
+     
+ }
+
+
+.mainSection{
+    padding: 0 .5em;
+}
+
+/* Menus */
+.menu{ 
+
+    text-align: center;
+    margin: 0 .2rem;
+
+}
+.menuCategory{
+    font-size: 2em;
+}
+.mainItem{
+    font-size: 1.1em;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+
+.description{
+    text-transform: lowercase;
+    letter-spacing: .02em;
+    /* font-style: italic; */
+    margin-top: .2em;
+    font-size: 1em;
+}
+
+.subMenu{
+    /* position: -webkit-sticky;
+    position: sticky;
+    top: 0; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 5rem;
+     
+}
+
+
+.subMenuItem{
+    border: 1px solid black;
+    max-width: 150px;
+    padding: .25em 1em;
+    font-size: 1rem;
+    letter-spacing: .1em;
+    /* margin-top: 1.25rem; */
+    text-decoration: none;
+    color: white;
+    border-radius: .25em;
+    background-color: #E2E6E6;
+    background-color: black;
+}
+
+/* End Menus */
+
+/* Drink Menu */
+.drinkMenu{
+    border: 1px solid red;
+    background: black;
+    color: gold;
+    margin: 0;
+    padding: .25em;
+}
+
+
+
+
+
+/* End Drink Menu */
+
+
+
+/* Footer */
+
+footer{
+    margin-top: 1em;
+    border-top: 1px solid grey;
+    display: grid;
+    padding: 0 .5em;
+    font-size: .75rem;
+   
+
+}
+
+footer li{
+    list-style: none;
+    
+   
+}
+.col1{
+    border-top: none;
+}
+
+.col2{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0;
+}
+.contact{
+    text-align: right;
+}
+
+.col2 p{
+    margin-bottom: 0.25rem;
+    color: grey;
+    
+}
+.col2 ul{
+    color: grey;
+    padding: 0;
+    margin-top: 0;
+  
+}
+
+.col3{
+   
+    padding: 1em;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1em;
+    
+    
+}
+
+
+/* End Footer */
+
+
+/* Refers to mini menu */
+
+
+.brunchHeading{
+    margin-bottom: .5rem;
+}
+.currentPromotion{
+    margin-top: 0;
+    font-size: 1.25em;
+
+}
