@@ -1,5 +1,6 @@
 :root{
-    --light-gold:#f7e481;
+    /* --light-gold:#f7e481; */
+    --light-gold: #ffdc83;
     --dark-accent: black;
 }
 
@@ -16,7 +17,8 @@ body{
     margin:0;
     padding: 0;
     /* font-family: 'IM Fell English SC', serif; */
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Rajdhani', sans-serif;
     height: 100%;
 }
 
@@ -60,7 +62,8 @@ a{
 /* Navigation */
 .topnav {
     overflow: hidden;
-    background-color: white;
+    background-color: black;
+    
     position: relative;
   }
   .topnav #myLinks {
@@ -83,7 +86,7 @@ a{
 
 
   .topnav a {
-    color: var(--dark-accent);
+    color: var(--light-gold);
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
@@ -91,7 +94,7 @@ a{
   }
   
   .topnav a.icon {
-    background: white;
+    background: black;
     display: block;
     position: absolute;
     right: 0;
@@ -265,7 +268,8 @@ a{
 .mainItem{
     font-size: 1.1em;
     margin-bottom: 0;
-    font-weight: 600;
+    font-weight: 400;
+    text-transform: uppercase;
 }
 
 .description{
@@ -356,11 +360,11 @@ footer li{
 
 .col2 p{
     margin-bottom: 0.25rem;
-    color: grey;
+    color: white;
     
 }
 .col2 ul{
-    color: grey;
+    color: white;
     padding: 0;
     margin-top: 0;
   
@@ -375,6 +379,10 @@ footer li{
     margin-bottom: 1em;
     
     
+}
+
+.contact{
+    color: white;
 }
 
 
