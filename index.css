@@ -145,9 +145,12 @@ a{
 
 .mainImg{
     max-width: 100%;
-    filter: brightness(50%);
+    filter: brightness(100%);
+    /* filter: g; */
     margin: 0 auto;
     display: block;
+    -webkit-mask-image: linear-gradient(transparent,rgba(0, 0, 0, 1),transparent);
+    mask-image: linear-gradient(transparent, rgba(0, 0, 0, 1),transparent);
     
 }
 
