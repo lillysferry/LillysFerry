@@ -248,24 +248,47 @@ a{
 
 }
 .menuCategory{
-    font-size: 2em;
+    font-size: 2rem;
     text-align: center;
+    margin-bottom: 0;
 }
-.menuSubCategory{
+.drinkCategory{
+    font-size: 1.5rem;
     color: white;
     border-bottom: 1px solid var(--light-gold);
-    max-width: 40%;
-    margin: 3px auto;
+    max-width: 65%;
+    margin: 1.5em auto .25em auto;
     text-align: center;
     
 }
-.beverages{
+.spiritCategory{
+    font-size: 1.25rem;
+    color: white;
+    margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+    .spiritsContainer{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        
+    }
+    .spiritCategoryContainer{
+        margin: 3em;
+    }
+    
+}
+/* .beverages{
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
+} */
 
-.mainItem{
+.drink{
+ 
+    margin: .25rem;
     font-size: 1.1em;
     margin-bottom: 0;
     font-weight: 400;
@@ -332,10 +355,15 @@ footer{
     margin-top: 1em;
     border-top: 1px solid grey;
     display: grid;
-    padding: 0 .5em;
+    padding: 0 1em;
     font-size: .75rem;
+    max-height: 150px;
+    min-height: 150px;
+    position:relative;
+    left:0px;
+    bottom:0px;
+    width:100%;
    
-
 }
 
 footer li{
@@ -353,6 +381,7 @@ footer li{
     justify-content: space-between;
     align-items: center;
     padding-top: 0;
+    margin: 0 1.5em;
 }
 .contact{
     text-align: right;
