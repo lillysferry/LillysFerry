@@ -227,7 +227,7 @@ h3{
 
 
 
-@media (min-width: 768px) {
+@media (min-width: 1175px) {
     .menuContainer{
         flex-direction: row;
         justify-content: space-around;
