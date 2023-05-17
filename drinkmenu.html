@@ -17,157 +17,163 @@
 
 <body>
     <header>
-        
+
         <nav>
             <div class="topnav">
-                <a class = "logo-link" href="index.html">
-                    <img class = "logo" height="90" src="images/LOGO-GOLD.png" alt="Logo for Lilly's Ferry">
+                <a class="logo-link" href="index.html">
+                    <img class="logo" height="90" src="images/LOGO-GOLD.png" alt="Logo for Lilly's Ferry">
                     <!-- Lillys Ferry -->
-                </a> 
+                </a>
                 <div id="myLinks">
-                    <a class = "nav-links"href="index.html" id ="selected"> Home</a>
-                    <a class = "nav-links" href="images/LillysFerryFoodMenu.pdf" >Menu</a>
-                    <a class = "nav-links" href="drinkmenu.html" >Beverages</a>                        
+                    <a class="nav-links" href="index.html" > Home</a>
+                    <a class="nav-links" href="foodmenu.html" >Menu</a>
+                    <a class="nav-links" href="drinkmenu.html" id="selected">Beverages</a>
+                    <a class="nav-links" target="_blank"
+                        href="https://online.skytab.com/3c07b32149f95e235ccdc1e3429311b1">Order Now</a>
+                    <a class="nav-links"target="_blank"
+                    href="https://www.opentable.com/restref/client/?restref=1283680&lang=en-US&ot_source=Restaurant%20website&corrid=64f4c964-3f8f-4680-bacc-df0275d6b8d5">Reserve a Table</a>
                 </div>
                 <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                  <i class="fa fa-bars"></i>
+                    <i class="fa fa-bars"></i>
                 </a>
-              </div>
+            </div>
         </nav>
     </header>
-
     <div class="drinkMenu">
-        <!-- <div class="subMenu">
-                <a class = "subMenuItem" href="index.html">Home</a>   
-                <a class = "subMenuItem"  href="foodmenu.html">Food</a>  
-                <a class = "subMenuItem"  href="brunch.html"> Brunch</a>
-            </div> -->
-        
-            <h2 class="menuCategory">Beverages</h2>
 
-            <div id="beverages" class="beverages">
-                <h3 class="drinkCategory" id="cocktails">Cocktails</h3>
-                    <p class="drink">Chili-Rhubarb Pie Margarita $20</p>
-                    <p class="drink">Lily’s “Clover Club” $20</p>
-                    <p class="drink">Philly Lily's Gimlet $18</p>
-                    <p class="drink">El Diablo Con Milagro $18</p>
-                    <p class="drink">Pineapple Tea Party $18</p>
-                    <p class="drink">Ginger-Rye Sour $ 18</p>
-                    <p class="drink">Olde’City Fashion $18</p>
-                    <p class="drink">Passion Ferry Daiquiri $18</p>
+        <div class="subMenu">
+            <a class="subMenuItem" href="/foodmenu.html">Food</a>
+            <a class="subMenuItem tableBtn" target="_blank"
+            href="https://www.opentable.com/restref/client/?restref=1283680&lang=en-US&ot_source=Restaurant%20website&corrid=64f4c964-3f8f-4680-bacc-df0275d6b8d5">Reserve a Table</a>
+            <a class="subMenuItem orderBtn" target="_blank"
+                href="https://online.skytab.com/3c07b32149f95e235ccdc1e3429311b1"> Order Now</a>
+        </div>
 
-               
-                    <h3 class="drinkCategory">Spirits & Aperitifs </h3>
-                    <div class="spiritsContainer">
-                        <div class="spiritCategoryContainer">
-                            <h4 class="spiritCategory">Vodka </h4>
-                                <p class="drink">Absolut </p>
-                                <p class="drink">Tito’s </p>
-                                <p class="drink">Kettle one</p>
-                                <p class="drink">Stolichnaya </p>
-                                <p class="drink">Stolichnaya citrus</p>
-                                <p class="drink">Stolichnaya vanilla </p>
-                        </div>
-                            
-                        <div class="spiritCategoryContainer">
-                            <h4 class="spiritCategory">Gin</h4>
-                                <p class="drink">Brokers </p>
-                                <p class="drink">Bombay sapphire </p>
-                                <p class="drink">Bombay London dry </p>
-                                <p class="drink">Hendricks </p>
-                                <p class="drink">Beefeater </p>
-                                <p class="drink">Tanqueray </p>
-                                <p class="drink">Tanqueray Rangpur</p>
-                                <p class="drink">BlueCoat </p>
-                                <p class="drink">Aviation</p>
-                        </div>
+        <h1 class="menuCategory">Beverages</h1>
 
-                        <div class="spiritCategoryContainer">
-                            <h4 class="spiritCategory">Irish whiskey</h4>
-                                <p class="drink">Tullamore Dew</p>
-                                <p class="drink">Jameson </p>
-                                <p class="drink">Bushmills </p>
-                                <p class="drink">Teeling </p>
-                        </div>
-                        <div class="spiritCategoryContainer">
-                            <h4 class="spiritCategory">Scotch whiskey</h4>
-                                <p class="drink">Dewars White Label </p>
-                                <p class="drink">Monkey Shoulder</p>
-                                <p class="drink">Dalmore 12 year</p>
-                                <p class="drink">The Balvenie DoubleWood 12 year</p>
-                                <p class="drink">The Glenlivet 12 year</p>
-                                <p class="drink">Johnnie Walker Red Label</p>
-                                <p class="drink">Johnnie Walker Black Label</p>
-                        </div>
-                        <div class="spiritCategoryContainer">
-                            <h4 class="spiritCategory">Canadian Whiskey</h4>
-                                <p class="drink">Seagrams 7</p>
-                                <p class="drink">Crown Royal </p>
-                        </div>
-                        <div class="spiritCategoryContainer">
-                            <h4 class="spiritCategory">Bourbon & Domestic Whiskey</h4>
-                                <p class="drink">Four Roses </p>
-                                <p class="drink">Jack Daniel’s</p>
-                                <p class="drink">Jack Daniel’s Honey </p>
-                                <p class="drink">Skrewball PB </p>
-                                <p class="drink">Jim Bean</p>
-                                <p class="drink">Knob Creek </p>
-                                <p class="drink">Knob Creek Rye </p>
-                                <p class="drink">Bulliet </p>
-                                <p class="drink">Bulliet Rye </p>
-                                <p class="drink">Basil Hayden </p>
-                                <p class="drink">Basil Hayden Dark Rye </p>
-                        </div>
-                        <div class="spiritCategoryContainer">
-                            <h4 class="spiritCategory">Cognac</h4>
-                                <p class="drink">Grand Marnier </p>
-                                <p class="drink">Hennessy </p>
-                        </div>
-                        <div class="spiritCategoryContainer">
-                            <h4 class="spiritCategory">Tequila</h4>
-                            <p class="drink">Milagro Silver</p>
-                            <p class="drink">Camarena Silver</p>
-                            <p class="drink">Camarena Gold</p>
-                            <p class="drink">Casamigos Silver</p>
-                            <p class="drink">Casamigos Reposado</p>
-                            <p class="drink">Tres Generaciones Blanco</p>
-                            <p class="drink">Tres Generaciones Repasado </p>
-                            <p class="drink">Tres Generaciones Anejo</p>
-                            <p class="drink">Patron Silver</p>
-                            <p class="drink">Patron Reposado</p>
-                            <p class="drink">Patron Anejo</p>
-                        </div>
-                        <div class="spiritCategoryContainer">
-                            <h4 class="spiritCategory">Rum</h4>
-                            <p class="drink">Don Q silver </p>
-                            <p class="drink">Bacardi Silver</p>
-                            <p class="drink">Calico Jack Silver</p>
-                            <p class="drink">Captain Morgan</p>
-                            <p class="drink">Malibu</p>
-                            <p class="drink">Myers Dark</p>
-                        </div>
-                        <div class="spiritCategoryContainer">
-                            <h4 class="spiritCategory">Aperitifs</h4>
-                            <p class="drink">Frangelico </p>
-                            <p class="drink">Disaronna </p>
-                            <p class="drink">Chambord</p>
-                            <p class="drink">Campari </p>
-                            <p class="drink">Aperol</p>
-                            <p class="drink">St.Elder elderflower</p>
-                            <p class="drink">Crème de Violette </p>
-                            <p class="drink">Cointreau </p>
-                            <p class="drink">Baileys </p>
-                            <p class="drink">Rumchatta </p>
-                            <p class="drink">Fireball </p>
-                        </div>
+        <div id="beverages" class="beverages">
+            <h2 class="drinkCategory" id="cocktails">Cocktails</h2>
+            <p class="drink">Chili-Rhubarb Pie Margarita $20</p>
+            <p class="drink">Lily’s “Clover Club” $20</p>
+            <p class="drink">Philly Lily's Gimlet $18</p>
+            <p class="drink">El Diablo Con Milagro $18</p>
+            <p class="drink">Pineapple Tea Party $18</p>
+            <p class="drink">Ginger-Rye Sour $ 18</p>
+            <p class="drink">Olde’City Fashion $18</p>
+            <p class="drink">Passion Ferry Daiquiri $18</p>
+
+
+            <h2 class="drinkCategory">Spirits & Aperitifs </h2>
+            <div class="spiritsContainer">
+                <div class="spiritCategoryContainer">
+                    <h4 class="spiritCategory">Vodka </h4>
+                    <p class="drink">Absolut </p>
+                    <p class="drink">Tito’s </p>
+                    <p class="drink">Kettle one</p>
+                    <p class="drink">Stolichnaya </p>
+                    <p class="drink">Stolichnaya citrus</p>
+                    <p class="drink">Stolichnaya vanilla </p>
                 </div>
-                    
+
+                <div class="spiritCategoryContainer">
+                    <h4 class="spiritCategory">Gin</h4>
+                    <p class="drink">Brokers </p>
+                    <p class="drink">Bombay sapphire </p>
+                    <p class="drink">Bombay London dry </p>
+                    <p class="drink">Hendricks </p>
+                    <p class="drink">Beefeater </p>
+                    <p class="drink">Tanqueray </p>
+                    <p class="drink">Tanqueray Rangpur</p>
+                    <p class="drink">BlueCoat </p>
+                    <p class="drink">Aviation</p>
+                </div>
+
+                <div class="spiritCategoryContainer">
+                    <h4 class="spiritCategory">Irish whiskey</h4>
+                    <p class="drink">Tullamore Dew</p>
+                    <p class="drink">Jameson </p>
+                    <p class="drink">Bushmills </p>
+                    <p class="drink">Teeling </p>
+                </div>
+                <div class="spiritCategoryContainer">
+                    <h4 class="spiritCategory">Scotch whiskey</h4>
+                    <p class="drink">Dewars White Label </p>
+                    <p class="drink">Monkey Shoulder</p>
+                    <p class="drink">Dalmore 12 year</p>
+                    <p class="drink">The Balvenie DoubleWood 12 year</p>
+                    <p class="drink">The Glenlivet 12 year</p>
+                    <p class="drink">Johnnie Walker Red Label</p>
+                    <p class="drink">Johnnie Walker Black Label</p>
+                </div>
+                <div class="spiritCategoryContainer">
+                    <h4 class="spiritCategory">Canadian Whiskey</h4>
+                    <p class="drink">Seagrams 7</p>
+                    <p class="drink">Crown Royal </p>
+                </div>
+                <div class="spiritCategoryContainer">
+                    <h4 class="spiritCategory">Bourbon & Domestic Whiskey</h4>
+                    <p class="drink">Four Roses </p>
+                    <p class="drink">Jack Daniel’s</p>
+                    <p class="drink">Jack Daniel’s Honey </p>
+                    <p class="drink">Skrewball PB </p>
+                    <p class="drink">Jim Bean</p>
+                    <p class="drink">Knob Creek </p>
+                    <p class="drink">Knob Creek Rye </p>
+                    <p class="drink">Bulliet </p>
+                    <p class="drink">Bulliet Rye </p>
+                    <p class="drink">Basil Hayden </p>
+                    <p class="drink">Basil Hayden Dark Rye </p>
+                </div>
+                <div class="spiritCategoryContainer">
+                    <h4 class="spiritCategory">Cognac</h4>
+                    <p class="drink">Grand Marnier </p>
+                    <p class="drink">Hennessy </p>
+                </div>
+                <div class="spiritCategoryContainer">
+                    <h4 class="spiritCategory">Tequila</h4>
+                    <p class="drink">Milagro Silver</p>
+                    <p class="drink">Camarena Silver</p>
+                    <p class="drink">Camarena Gold</p>
+                    <p class="drink">Casamigos Silver</p>
+                    <p class="drink">Casamigos Reposado</p>
+                    <p class="drink">Tres Generaciones Blanco</p>
+                    <p class="drink">Tres Generaciones Repasado </p>
+                    <p class="drink">Tres Generaciones Anejo</p>
+                    <p class="drink">Patron Silver</p>
+                    <p class="drink">Patron Reposado</p>
+                    <p class="drink">Patron Anejo</p>
+                </div>
+                <div class="spiritCategoryContainer">
+                    <h4 class="spiritCategory">Rum</h4>
+                    <p class="drink">Don Q silver </p>
+                    <p class="drink">Bacardi Silver</p>
+                    <p class="drink">Calico Jack Silver</p>
+                    <p class="drink">Captain Morgan</p>
+                    <p class="drink">Malibu</p>
+                    <p class="drink">Myers Dark</p>
+                </div>
+                <div class="spiritCategoryContainer">
+                    <h4 class="spiritCategory">Aperitifs</h4>
+                    <p class="drink">Frangelico </p>
+                    <p class="drink">Disaronna </p>
+                    <p class="drink">Chambord</p>
+                    <p class="drink">Campari </p>
+                    <p class="drink">Aperol</p>
+                    <p class="drink">St.Elder elderflower</p>
+                    <p class="drink">Crème de Violette </p>
+                    <p class="drink">Cointreau </p>
+                    <p class="drink">Baileys </p>
+                    <p class="drink">Rumchatta </p>
+                    <p class="drink">Fireball </p>
+                </div>
             </div>
+
+        </div>
     </div>
     </div> <!--      end of menu -->
     <footer>
-        <div class = "col2">
+        <div class="col2">
             <div class="hours">
                 <p>Hours</p>
                 <ul>
@@ -181,17 +187,18 @@
             </div>
             <div class="contact">
                 <!-- Is this phone number correct? -->
-                <p>Contact: <br> <a class ="contact" href="tel:215-543-6089"> 215-543-6089</a> </p> 
-                <p>Location:</p> <a  class ="contact" target = "_blank" href="https://www.google.com/maps/place/The+Victoria+Freehouse/@39.9492263,-75.1444797,17z/data=!3m1!5s0x89c6c88f7ef94f4d:0x9ff82f15a1e3e558!4m12!1m6!3m5!1s0x89c6c88f79874489:0x3573a3a03709f8b6!2sThe+Victoria+Freehouse!8m2!3d39.9492263!4d-75.142291!3m4!1s0x89c6c88f79874489:0x3573a3a03709f8b6!8m2!3d39.9492263!4d-75.142291">
-                    10 S Front St. gi
+                <p>Contact: <br> <a class="contact" href="tel:215-543-6089"> 215-543-6089</a> </p>
+                <p>Location:</p> <a class="contact" target="_blank"
+                    href="https://www.google.com/maps/place/The+Victoria+Freehouse/@39.9492263,-75.1444797,17z/data=!3m1!5s0x89c6c88f7ef94f4d:0x9ff82f15a1e3e558!4m12!1m6!3m5!1s0x89c6c88f79874489:0x3573a3a03709f8b6!2sThe+Victoria+Freehouse!8m2!3d39.9492263!4d-75.142291!3m4!1s0x89c6c88f79874489:0x3573a3a03709f8b6!8m2!3d39.9492263!4d-75.142291">
+                    10 S Front St.
                 </a>
-            </div>        
+            </div>
         </div>
-        <div class = "col3">
-          <!-- What do we need to change here -->
-            <a href="mailto: info@lillysferry.com"><i class="far fa-envelope"></i></a> 
+        <div class="col3">
+            <!-- What do we need to change here -->
+            <a href="mailto: info@lillysferry.com"><i class="far fa-envelope"></i></a>
             <a href="https://www.facebook.com/profile.php?id=100090307211377"><i class="fab fa-facebook-f"></i></a>
-            <a href="https://www.instagram.com/lillys_ferry/"><i class="fab fa-instagram"></i></a>   
+            <a href="https://www.instagram.com/lillys_ferry/"><i class="fab fa-instagram"></i></a>
         </div>
     </footer>
 </body>
