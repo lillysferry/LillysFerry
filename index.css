@@ -227,7 +227,7 @@ h3{
 
 
 
-@media (min-width: 1175px) {
+@media (min-width: 1245px) {
     .menuContainer{
         flex-direction: row;
         justify-content: space-around;
@@ -351,6 +351,7 @@ h3{
     color: var(--white);
     font-size: .75rem;
     margin: .15em 0 0 1em;
+    max-width: 65%;
     
 
 }
@@ -421,9 +422,9 @@ footer{
 
 footer li{
     list-style: none;
-    
-   
+    line-height: 1.5em;
 }
+
 .col1{
     border-top: none;
 }
